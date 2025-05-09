@@ -1,0 +1,137 @@
+/* General */
+body{
+    background-color: rgba(252, 248, 248, 0.856);
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0  ;
+}
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/*Encabezado*/
+.header{
+    background-color: #d8d6d4;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header h1{
+    font-size: 2rem
+}
+header img{
+    width: 150px;
+    border-radius: 50%;
+    padding-top: 20px;
+    height: auto;
+}
+/* link redes */
+.redes{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #e9e9e9;
+}
+.redes a{
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 10px;
+    color: rgba(158, 23, 255, 0.801);
+    font-weight: bold;
+}
+.redes a:hover{
+    text-decoration: underline;
+    color: #ff0404;
+}
+/* Secciones de listas 3137764596*/
+
+.Pasatiempos,
+.Tareas{
+    max-width: 800PX;
+    border-radius: 10px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid #d5acf5;
+}
+.Pasatiempos h2,
+.Tareas h2{
+    font-size: 30px;
+}
+.Pasatiempos ul,
+.Tareas ul{
+    margin: 0;
+}
+.Pasatiempos li,
+.Tareas li{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* listas */
+.TabLista{
+    max-width: 800PX;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid #d5acf5;
+}
+.TabLista h2{
+    font-size: 30px;
+}
+.TabLista table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 20px auto;
+    
+}
+.TabLista th, .TabLista td{
+    padding: 10px;
+    border: 1px solid #9101ff4f;
+}
+.TabLista th{
+    background-color: #a93fff;
+    color: #ffffff;
+}
+.TabLista td{
+    background-color: #ebebeb;
+}
+
+/* Formulario */
+.containerform{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid #d5acf5;
+}
+.containerform h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.containerform input,label{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.containerform input[type="submit"]{
+    background-color: #a93fff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif
+}
+.containerform input[type="submit"]:hover{
+    background-color: #ff0000;
+    color: black;
+}
